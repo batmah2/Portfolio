@@ -10,16 +10,6 @@ import Button from "./Button";
  * This component represents a fully functional contact form.
  *
  * @component
- *
- * Form Submission API Key:
- * ------------------------
- * To enable form submissions, obtain your API Key from https://web3forms.com/
- *
- * Follow these steps:
- * 1. Create a .env file in the root directory.
- * 2. Copy and paste the following line into your .env file, replacing with your API key:
- *    REACT_APP_ACCESS_KEY="Your API Key"
- *
  */
 
 const Form = () => {
@@ -62,6 +52,7 @@ const Form = () => {
   // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log(formData.access_key);
 
     // Validate and set error states
     formData.name === "" ? setNameError(true) : setNameError(false);
