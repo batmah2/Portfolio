@@ -1,0 +1,53 @@
+[
+  {
+    "title": "Kasa",
+    "description": "Location Immobilière",
+    "image": "/projectImages/kasaProject1.png",
+    "image2": "/projectImages/kasaProject2.png",
+    "image3": "/projectImages/routes3.png",
+    "body": "Pendant mon parcours de formation en tant qu'intégrateur web, j'ai eu l'occasion de travailler sur le projet Kasa, un site de location immobilière développé en React et Sass.\n Mon rôle consistait à intégrer une maquette fournie en y incorporant des animations, m'initiant ainsi au design interactif et à la librairie React.",
+    "technologies": ["React", "Sass"],
+    "github": "https://github.com/batmah2/Kasa",
+    "deployed": "https://kasa-batmah2.vercel.app/",
+    "bgcolor": "var(--hl2-color)",
+    "id": "1"
+  },
+  {
+    "title": "Sophie Bluel",
+    "description": "Portfolio Architecte d'intérieur",
+    "image": "/projectImages/sophieBluel1.png",
+    "image2": "/projectImages/sophieBluel2.png",
+    "image3": "/projectImages/weather3.png",
+    "technologies": ["JavaScript", "HTML", "CSS"],
+    "body": "Ce projet m'a permis de mettre en pratique mes compétences en intégration web en utilisant des technologies telles que les appels API pour établir un formulaire de connexion fonctionnel ainsi qu'une gestion d'ajout et de suppression des travaux du client rendant le portfolio intéractif, tout en respectant et en traduisant fidèlement le design fourni pour présenter le travail remarquable de l'architecte d'intérieur.",
+    "github": "https://github.com/batmah2/Portfolio-Sophie-Bluel",
+    "bgcolor": "var(--hl-color)",
+    "id": "2"
+  },
+  {
+    "title": "Nina Carducci",
+    "description": "Site de retouche et de photgraphie",
+    "image": "/projectImages/ninaCarducci1.png",
+    "image2": "/projectImages/ninaCarducci2.png",
+    "image3": "/projectImages/team3.png",
+    "technologies": ["JavaScript", "jQuery", "Bootstrap", "SEO", "Référencement"],
+    "body": "This Node.js command-line application generates an interactive team dashboard from user-provided data. It accepts information about team members and outputs a dynamic HTML page profiling the entire group.\nRather than relying on static spreadsheets, this tool creates a customizable web page that brings employee data to life. The dashboard auto-populates with profiles for each team member, containing details provided via the command-line input.\nBuilt on Node.js, this project demonstrates skills in crafting web applications using JavaScript-based server-side frameworks. It handles input data dynamically to render an animated, engaging profile of the entire team. The end result is an shareable HTML page that serves as a creative alternative to traditional spreadsheet-based team overviews.",
+    "github": "https://github.com/batmah2/Ismail_Mahmoud_SEO_102023",
+    "deployed": "https://batmah2.github.io/Ismail_Mahmoud_SEO_102023/",
+    "bgcolor": "#6c4bf4",
+    "id": "3"
+  },
+  {
+    "title": "724 Events",
+    "description": "Agence évènementielle",
+    "image": "/projectImages/quiz.png",
+    "image2": "/projectImages/javascript.jpeg",
+    "image3": "/projectImages/quiz3.png",
+    "technologies": ["JavaScript", "HTML", "CSS"],
+    "body": "This application tests JavaScript knowledge through a timed, question-based quiz. Users are presented with 5 random questions and have 50 seconds to complete the quiz. The remaining time at completion determines the final score, rewarding both accuracy and speed.\nTo add challenge, the timer is reduced by 10 seconds for each incorrect answer. This creates urgency to answer carefully within the time limit. Questions are drawn randomly from a pool to ensure variety upon each attempt.\nBuilt using JavaScript, this project provides hands-on experience creating a responsive quiz application. Key learning outcomes include: \n➤ Generating random questions from a pool of options\n➤ Implementing a countdown timer with penalty deductions\n➤ Calculating scores based on time remaining\n➤ Providing interactive quiz feedback to users\nOverall, this application allows users to test their JavaScript skills through an engaging, time-pressured quiz interface. Both code knowledge and quick thinking are required to achieve a top score.",
+    "github": "https://github.com/mdyeates/coding-quiz",
+    "deployed": "https://mdyeates.github.io/coding-quiz/",
+    "bgcolor": "#f85781",
+    "id": "4"
+  }  
+]
