@@ -72,7 +72,7 @@ const Hero = ({ name }) => {
         initial={{ scale: 0.5, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ delay: 0, duration: 0.5, type: "spring" }}>
-          <p>"Intégrateur web passionné et curieux, je mets mes compétences au service de vos projets. Ayant suivi une formation Intégrateur web de 9 mois chez OpenClassrooms, j'y ai appris à maîtriser les technologies web les plus récentes, notamment React, HTML, CSS et JavaScript. J'ai également développé mes compétences en optimisation du référencement, en debuggage, en tests et en planification. Si vous avez un projet web, n'hésitez pas à me contacter. Je serai ravi de vous accompagner dans sa réalisation."</p>
+          <p><br/>Intégrateur web passionné et curieux, je mets mes compétences au service de vos projets. Ayant suivi une formation Intégrateur web de 9 mois chez OpenClassrooms, j'y ai appris à maîtriser les technologies web les plus récentes, notamment React, HTML, CSS et JavaScript. J'ai également développé mes compétences en optimisation du référencement, en résolution de bug, en tests fonctionnels et en planification de développement.<br/> Si vous avez un projet web, n'hésitez pas à me contacter. Je serai ravi de vous accompagner dans sa réalisation.</p>
         </motion.div>
       </div>
       {/* Animated landing image */}
