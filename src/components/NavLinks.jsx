@@ -34,7 +34,7 @@ const NavLinks = () => {
         >
           {/* Home link */}
           <NavLink to="/" onClick={() => setIsMenuOpen(false)}>
-            Home
+            Acceuil
           </NavLink>
         </motion.div>
 

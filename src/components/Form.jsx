@@ -123,13 +123,13 @@ const Form = () => {
   // Determine button text based on status
   const handleButtonText = () => {
     if (sending) {
-      return "Please wait...";
+      return "Veuillez patienter...";
     } else if (success) {
-      return "Message Sent";
+      return "Message envoyé";
     } else if (failed || nameError || messageError || emailError || subjectError) {
-      return "Try again";
+      return "Essayez encore";
     } else {
-      return "Send Message";
+      return "Envoyer";
     }
   };
 
@@ -143,7 +143,7 @@ const Form = () => {
       transition={{ duration: 0.4, ease: "easeInOut" }}
       onSubmit={handleSubmit}
     >
-      <h4 className="contentTitle">Send a Message</h4>
+      <h4 className="contentTitle">Envoyez moi un message</h4>
       {/* Input fields */}
       <div className="col-12 col-md-6 formGroup" style={{ display: "inline-block" }}>
         <input
@@ -156,7 +156,7 @@ const Form = () => {
           value={formData.name}
           id="contactName"
           name="name"
-          placeholder={`${nameError ? "Please enter your name" : "Name"}`}
+          placeholder={`${nameError ? "Veuillez entrer votre nom" : "Nom"}`}
           autoComplete="name"
         />
       </div>
@@ -171,7 +171,7 @@ const Form = () => {
           value={formData.email}
           id="contactEmail"
           name="email"
-          placeholder={`${emailError ? "Please enter a valid email" : "Email"}`}
+          placeholder={`${emailError ? "Veuillez entrer un Email valide" : "Email"}`}
           autoComplete="email"
         />
       </div>
@@ -186,7 +186,7 @@ const Form = () => {
           value={formData.subject}
           id="contactSubject"
           name="subject"
-          placeholder={`${subjectError ? "Please enter a subject" : "Subject"}`}
+          placeholder={`${subjectError ? "Veuillez choisir un sujet" : "Sujet"}`}
           autoComplete="off"
         />
       </div>
@@ -201,7 +201,7 @@ const Form = () => {
           name="message"
           id="contactMessage"
           rows="5"
-          placeholder={`${messageError ? "Please enter a message" : "Message"}`}
+          placeholder={`${messageError ? "Veuillez entrer un message" : "Message"}`}
           autoComplete="off"
         ></textarea>
       </div>

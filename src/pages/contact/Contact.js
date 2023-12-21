@@ -19,7 +19,7 @@ const Contact = ({ name, email, location }) => {
       {/* Main Contact Page */}
       <main className="contact container">
         {/* Display the page header */}
-        <PageHeader title="Contact" description="Get in touch" />
+        <PageHeader title="Contact" description="Besoin d'un développeur front-end ?" />
 
         <div className="contactWrap container">
           <div className="row">

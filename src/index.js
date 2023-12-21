@@ -4,7 +4,6 @@ import "./index.css";
 import "./pages/landing/hero.css";
 import "./pages/landing/about.css";
 import "./pages/portfolio/portfolio.css";
-import "./pages/resume/resume.css";
 import "./pages/contact/contact.css";
 import "./pages/404/pageNotFound.css";
 

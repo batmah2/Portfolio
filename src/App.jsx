@@ -7,32 +7,9 @@ import Header from "./components/Header";
 import Landing from "./pages/landing/Landing";
 import Portfolio from "./pages/portfolio/Portfolio";
 import ProjectDetails from "./pages/portfolio/[project]/ProjectDetails";
-import Resume from "./pages/resume/Resume";
 import Contact from "./pages/contact/Contact";
 import PageNotFound from "./pages/404/PageNotFound";
 
-/**
- * Instructions for Customizing the Portfolio
- * ------------------------------------------
- * 1. Adding Your Own Projects:
- *    - Navigate to the "_data" folder and modify the "projects.json" file to include your projects.
- *
- * 2. Replacing Project Images:
- *    - Access the "public/projectImages" directory to replace the my project images with your own.
- *
- * 3. Handling Form Submissions:
- *    - To receive form submissions, obtain an API Key. Refer to the Form component for detailed instructions.
- *
- * For Assistance or Questions:
- * -----------------------------
- * If you require assistance or have questions, don't hesitate to reach out via LinkedIn or email.
- *
- * Support and Star:
- * ------------------
- * Enjoying this project? Please consider giving it a star (🌟).
- * I'm committed to ongoing updates and feature additions.
- * Your suggestions and feedback are invaluable and highly encouraged!
- */
 
 function App() {
   // Personal details for the user
@@ -89,7 +66,6 @@ function App() {
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<Landing name={personalDetails.name} tagline={personalDetails.tagline} />} />
             <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/resume" element={<Resume brand={personalDetails.brand} />} />
 
             <Route
               path="/contact"

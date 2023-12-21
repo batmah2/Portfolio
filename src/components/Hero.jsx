@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-import landingImage from "../images/Mah.jpeg";
 import SocialIcons from "./SocialIcons";
 
 /**
@@ -73,11 +72,7 @@ const Hero = ({ name }) => {
         initial={{ scale: 0.5, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ delay: 0, duration: 0.5, type: "spring" }}>
-          <p><br/><br/>Intégrateur web passionné et curieux, je mets mes compétences au service de vos projets <br/><br/>Passionné d'informatique  j'ai suivi une formation Intégrateur web de 9 mois chez OpenClassrooms. Cette formation m'a permis d'acquérir les compétences techniques nécessaires pour concevoir et réaliser des sites web performants et optimisés.<br/><br/>Au cours de ma formation, j'ai appris à maîtriser les technologies web les plus récentes, notamment React, HTML, CSS et JavaScript. J'ai également développé mes compétences en optimisation du référencement, en debuggage, en tests et en planification.<br/><br/>
-
-              Je suis aujourd'hui un intégrateur web qualifié et expérimenté, prêt à relever tous les challenges. Je suis toujours à la recherche de nouvelles technologies et de nouvelles façons de faire.<br/><br/>
-
-              Si vous avez un projet web, n'hésitez pas à me contacter. Je serai ravi de vous accompagner dans sa réalisation.</p>
+          <p>"Intégrateur web passionné et curieux, je mets mes compétences au service de vos projets. Ayant suivi une formation Intégrateur web de 9 mois chez OpenClassrooms, j'y ai appris à maîtriser les technologies web les plus récentes, notamment React, HTML, CSS et JavaScript. J'ai également développé mes compétences en optimisation du référencement, en debuggage, en tests et en planification. Si vous avez un projet web, n'hésitez pas à me contacter. Je serai ravi de vous accompagner dans sa réalisation."</p>
         </motion.div>
       </div>
       {/* Animated landing image */}

@@ -85,13 +85,13 @@ const ProjectDetails = () => {
                 transition={{ duration: 0.5, delay: project.body.split("\n").length * 0.3 }}
               >
                 <a href={project.github}>
-                  <Button name="View Code" />
+                  <Button name="Voir le code" />
                 </a>
                 <a href={project.deployed}>
-                  <Button name="View Site" />
+                  <Button name="Voir le site" />
                 </a>
                 <Link to="/portfolio">
-                  <Button name="Go Back" color="var(--hl2-color)" />
+                  <Button name="Retour en arrière" color="var(--hl2-color)" />
                 </Link>
               </motion.div>
             </div>

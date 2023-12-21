@@ -32,7 +32,7 @@ const SocialIcons = () => {
           title="Mahmoud Ismail' GitHub Profile"
         ></motion.i>
       </a>
-      <a className="icon" style={styles.icon} href="#">
+      <a className="icon" style={styles.icon} href="linkedin.com">
         {/* LinkedIn Icon */}
         <motion.i
           initial={{ y1: 100, opacity: 0 }}

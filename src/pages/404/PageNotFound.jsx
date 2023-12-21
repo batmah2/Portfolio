@@ -19,12 +19,12 @@ const PageNotFound = () => {
         <div className="row">
           <div className="col">
             {/* Display a message indicating the page was not found */}
-            <p>Sorry, the page you are looking for does not exist.</p>
-            <p>Please double-check the URL or navigate to another section of the site.</p>
+            <p>Désolé, la page que vous recherchez n'existe pas.</p>
+            <p>Veillez à bien vérifier l'url ou naviguer vers une autre section du site.</p>
 
             {/* Provide a link back to the home page */}
             <Link to="/" className="home">
-              <Button name="Return to Home" />
+              <Button name="Acceuil" />
             </Link>
           </div>
         </div>
