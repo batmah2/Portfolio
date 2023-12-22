@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
-import LightDarkToggle from "./LightDarkToggle";
 import openMenu from "../images/open.svg";
 import closeMenu from "../images/close.svg";
 
@@ -64,8 +63,6 @@ const NavLinks = () => {
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 2.1, duration: 0.5, type: "spring" }}
         >
-          {/* Light/Dark mode toggle */}
-          <LightDarkToggle />
         </motion.div>
       </nav>
     </>
