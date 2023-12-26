@@ -22,48 +22,60 @@ const Loader = ({ setShowLoader }) => {
     hidden: {
       pathLength: 0,
       fill: "rgb(19, 26, 34)",
+      strokeDasharray: 0,
+      strokeDashoffset: 0,
     },
     visible: {
-      pathLength: 0,
+      pathLength: 1,
       fill: "rgb(243, 243, 243)",
       stroke: "rgb(243, 243, 243)",
       strokeWidth: 3,
       scale: 0,
+      strokeDasharray: 1,
+      strokeDashoffset: 1,
       transition: {
         default: { duration: 3, ease: "easeIn" },
         fill: { duration: 3, ease: [1, 0, 0.8, 1] },
-        stroke: { duration: 3, ease: [1, 0, 0.8, 1] },
+        stroke: { duration: 1, ease: [1, 0, 0.8, 1] },
         scale: { duration: 3, ease: [1, 1, 0.5, 0] },
+        strokeDasharray: { duration: 1, ease: "linear" },
+        strokeDashoffset: { duration: 1, ease: "linear" },
       },
     },
   };
-
+  
   const iconVariant2 = {
     hidden: {
       pathLength: 0,
       fill: "rgb(19, 26, 34)",
+      strokeDasharray: 0,
+      strokeDashoffset: 0,
     },
     visible: {
-      pathLength: 0,
+      pathLength: 1,
       fill: "rgb(72, 163, 198)",
       stroke: "rgb(72, 163, 198)",
-      scale: 0,
       strokeWidth: 3,
+      scale: 0,
+      strokeDasharray: 1,
+      strokeDashoffset: 1,
       transition: {
         default: { duration: 3, ease: "easeIn" },
         fill: { duration: 3, ease: [1, 0, 0.8, 1] },
-        stroke: { duration: 3, ease: [1, 0, 0.8, 1] },
+        stroke: { duration: 1, ease: [1, 0, 0.8, 1] },
         scale: { duration: 3, ease: [1, 1, 0.5, 0] },
+        strokeDasharray: { duration: 1, ease: "linear" },
+        strokeDashoffset: { duration: 1, ease: "linear" },
       },
     },
   };
-
+  
   return (
     <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "70vh" }}>
       {/* Animated SVG */}
       <motion.svg
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1920 1080"
+        viewBox="0 0 2000 2000"
         style={{ width: "30vw", height: "30vw" }}
       >
         {/* First SVG path */}
