@@ -28,8 +28,6 @@ const Landing = ({ name }) => {
         <Hero name={name} />
       </main>
 
-      {/* Display the about section */}
-      {/* <About /> */}
     </>
   );
 };

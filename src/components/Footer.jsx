@@ -10,16 +10,6 @@ const Footer = () => {
   const date = new Date();
   const currentYear = date.getFullYear();
 
-  // Variants for button animation
-  const buttonVariants = {
-    hover: {
-      scale: 1.05,
-    },
-    tap: {
-      scale: 1,
-    },
-  };
-
   return (
     <footer>
       {/* Social icons */}

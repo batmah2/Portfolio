@@ -52,7 +52,6 @@ const Form = () => {
   // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData.access_key);
 
     // Validate and set error states
     formData.name === "" ? setNameError(true) : setNameError(false);

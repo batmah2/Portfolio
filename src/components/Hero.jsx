@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
+/* import landingImage from "../images/mah.jpeg"; */
 import SocialIcons from "./SocialIcons";
 
 /**
@@ -76,6 +77,17 @@ const Hero = ({ name }) => {
         </motion.div>
       </div>
       {/* Animated landing image */}
+     {/*  <div className="image-container">
+        <motion.img
+          className="landingImage"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 0.25 }}
+          transition={{ delay: 1, duration: 1.5, ease: "easeInOut" }}
+          style={styles.landingImage}
+          src={landingImage}
+          alt="Mahmoud Ismail"
+        />
+      </div> */}
       {/* Displaying social icons */}
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, ease: "easeInOut" }}>
         <SocialIcons />
