@@ -29,11 +29,22 @@ const NavLinks = () => {
         <motion.div
           initial={{ x: -100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
-          transition={{ delay: 2.4, duration: 0.5, type: "spring" }}
+          transition={{ delay: 2.5, duration: 0.5, type: "spring" }}
         >
           {/* Home link */}
           <NavLink to="/" onClick={() => setIsMenuOpen(false)}>
             Acceuil
+          </NavLink>
+        </motion.div>
+
+        <motion.div
+          initial={{ x: -100, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ delay: 2.4, duration: 0.5, type: "spring" }}
+        >
+          {/* About link */}
+          <NavLink to="/about" onClick={() => setIsMenuOpen(false)}>
+            À propos
           </NavLink>
         </motion.div>
 

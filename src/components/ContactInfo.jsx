@@ -30,7 +30,7 @@ const ContactInfo = ({ name, email, location }) => {
     >
       <h4 className="contentTitle">Contactez-moi</h4>
       <p className="infoDescription">
-      À la recherche d'établir des connexions et de partager des perspectives avec des développeurs talentueux œuvrant pour créer un changement positif.
+      En quête d'échanges fructueux pour découvrir et participer à mon prochain projet stimulant dans le domaine du développement web.
       </p>
       <ul className="listInfo">
         {/* Display Name */}

@@ -82,6 +82,11 @@ body {
   letter-spacing: 1px;
 }
 
+.pageParagraph {
+  color: var(--text-color);
+  text-align: center;
+}
+
 .socialIcons .icon {
   color: var(--text-color);
 }
@@ -131,6 +136,16 @@ a {
   animation: fadeInAnimation 0.5s ease-in;
 }
 
+.aboutImg {
+  display: flex;
+  justify-content: center;
+}
+
+.CvImage {
+  width: 80%;
+  margin: 40px;
+}
+
 /* --- MOBILE STYLES --- */
 
 /* --- HEADER ---  */
@@ -166,6 +181,7 @@ header {
   justify-content: center;
   padding: 20px 0;
   position: relative;
+  white-space: nowrap;
 }
 
 .links a:hover {
